@@ -1,20 +1,9 @@
 # HyperLogLog — Kardinalite Tahmini
 
-Büyük Veri Analitiği dersi kapsamında Java ile sıfırdan geliştirilmiş HyperLogLog implementasyonu. Olasılıksal bir veri yapısı olan HyperLogLog, bir veri kümesindeki tekil eleman sayısını (kardinaliteyi) düşük bellek kullanımıyla yüksek doğrulukta tahmin eder.
+Bir veri kümesindeki tekil eleman sayısını düşük bellek kullanımıyla tahmin eden HyperLogLog algoritmasının Java ile sıfırdan geliştirilmiş implementasyonudur.
 
 ---
 
-## İçindekiler
-
-- [Genel Bakış](#genel-bakış)
-- [Algoritma](#algoritma)
-- [Kurulum ve Çalıştırma](#kurulum-ve-çalıştırma)
-- [Kullanım](#kullanım)
-- [Test Sonuçları](#test-sonuçları)
-- [Teorik Analiz](#teorik-analiz)
-- [Proje Yapısı](#proje-yapısı)
-
----
 
 ## Genel Bakış
 
@@ -161,13 +150,6 @@ HyperLogLog.java
 
 ---
 
-## Geliştirme Ortamı
-
-- Dil: Java
-- IDE: IntelliJ IDEA
-- Dil Modeli: Claude Sonnet (Agentic Coding yöntemiyle)
-
----
 
 ## Kaynak
 
